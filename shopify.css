@@ -6,4 +6,17 @@
 
 #container {
     background-color: #000000;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text]{
+    width: 30%;
+    margin-left: 350px;
+    border-radius: 500px;
+}
+
+.notification {
+    margin-left: 300px;
 }
