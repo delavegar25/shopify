@@ -20,3 +20,15 @@ input[type=text]{
 .notification {
     margin-left: 300px;
 }
+
+#select{
+    padding: 100px;
+    text-align: center;
+}
+
+.plan {
+    background-color: #000000;
+    color: #fff;
+    height: 40px;
+    text-align: left;
+}
