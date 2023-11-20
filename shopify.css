@@ -29,6 +29,12 @@ input[type=text]{
 .plan {
     background-color: #000000;
     color: #fff;
+    width: 800px;
     height: 40px;
     text-align: left;
+    padding: 10px;
+}
+
+#btn {
+    margin-left: 300px;
 }
