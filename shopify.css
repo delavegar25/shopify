@@ -24,8 +24,10 @@ input[type=text]{
     cursor: pointer;
 }
 
+
+
 ::placeholder {
-    background-color: #000000;
+    background-color: #333;
 }
 
 .notification {
