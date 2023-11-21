@@ -28,7 +28,7 @@ input[type=text]{
 
 
 ::placeholder {
-    background-color: #333;
+    background-color: #322F33;
 }
 
 .notification {
@@ -58,13 +58,13 @@ input[type=text]{
 }
 
 #btn:hover {
-    border: 2px solid #000000;
+    border: 2px solid #f7f7f7;
     cursor: pointer;
 }
 
 #section {
  width: 800px;
- background-color: gainsboro;   
+ background-color: #F1F1F1;   
  margin-left: 180px;
  height: 60vh;
  padding: 5px;
@@ -83,5 +83,13 @@ h2{
 }
 
 #template {
-    background-color: gainsboro;
+    background-color: #e3e3e3;
+}
+
+#section svg {
+    margin-left: 20px;
+}
+
+#section .customize {
+    margin-left: 20px;
 }
