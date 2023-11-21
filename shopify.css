@@ -17,6 +17,11 @@ input[type=text]{
     margin-left: 350px;
     border-radius: 15px;
     border-radius: 7px;
+    cursor: pointer;
+}
+
+::placeholder {
+    background-color: #000000;
 }
 
 .notification {
@@ -40,4 +45,23 @@ input[type=text]{
 
 #btn {
     margin-left: 300px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#btn:hover {
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+
+section {
+ background-color: #fff;   
+ text-align: center;
+ margin-right: 750px;
+ border-radius: 10px;
+}
+
+h1{
+    margin-right: 250px;
+    padding: 10px;
 }
