@@ -93,3 +93,15 @@ h2{
 #section .customize {
     margin-left: 20px;
 }
+
+#template #btn2 {
+  background-color: #1C181D;
+  border-radius: 5px;
+  margin-right: 580px;
+  padding: 6px;
+  color: #ffffff;
+}
+
+#template .import{
+    margin-right: -5px;
+}
