@@ -102,6 +102,18 @@ h2{
   color: #ffffff;
 }
 
-#template .import{
-    margin-right: -5px;
+#template .import {
+    margin-left: 200px;
+}
+
+#template h4 {
+   padding: 20px;
+}
+
+#template .first-product{
+    padding: 15px;
+}
+
+#domain .custom {
+   margin-left: 20px;
 }
