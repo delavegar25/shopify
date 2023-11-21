@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+ 
+body {
+    background-color: aliceblue;
+}
 
 #container {
     background-color: #000000;
@@ -54,14 +58,16 @@ input[type=text]{
     cursor: pointer;
 }
 
-section {
- background-color: #fff;   
- text-align: center;
- margin-right: 750px;
- border-radius: 10px;
+#section {
+ width: 1200px;
+ background-color: gainsboro;   
+ margin-left: 90px;
+ height: 900px;
+ padding: 5px;
+ margin-bottom: 15px;
 }
 
-h1{
+h2{
     margin-right: 250px;
     padding: 10px;
     font-family: sans-serif;
