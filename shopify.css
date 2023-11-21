@@ -46,6 +46,7 @@ input[type=text]{
     height: 40px;
     text-align: left;
     padding: 10px;
+    margin-left: 80px;
     border-radius: 5px;
 }
 
@@ -61,12 +62,12 @@ input[type=text]{
 }
 
 #section {
- width: 1200px;
+ width: 850px;
  background-color: gainsboro;   
- margin-left: 90px;
- height: 900px;
+ margin-left: 150px;
+ height: 900vh;
  padding: 5px;
- margin-bottom: 15px;
+ margin-top: -90px;
 }
 
 h2{
