@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
  
 body {
@@ -51,7 +52,7 @@ input[type=text]{
 }
 
 #btn {
-    margin-left: 300px;
+    margin-left: 150px;
     height: 25px;
     border-radius: 5px;
 }
@@ -75,4 +76,12 @@ h2{
     margin-right: 250px;
     padding: 10px;
     font-family: sans-serif;
+}
+
+.completed {
+    padding: 10px;
+}
+
+#template {
+    background-color: gainsboro;
 }
