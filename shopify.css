@@ -19,6 +19,7 @@ body {
     justify-content: center;
 }
 
+
 input[type=text]{
     margin-bottom: 8px;
     width: 30%;
@@ -27,7 +28,6 @@ input[type=text]{
     border-radius: 7px;
     cursor: pointer;
 }
-
 
 
 ::placeholder {
@@ -42,6 +42,8 @@ input[type=text]{
     padding: 100px;
     text-align: center;
 }
+
+
 
 .plan {
     background-color: #000000;
@@ -75,9 +77,7 @@ input[type=text]{
  border-radius: 5px;
 }
 
-#section img {
 
-}
 
 h2{
     margin-right: 250px;
