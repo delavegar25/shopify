@@ -26,12 +26,15 @@ input[type=text]{
     margin-left: 350px;
     border-radius: 15px;
     border-radius: 7px;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 
 ::placeholder {
     background-color: #322F33;
+    position: absolute;
+    left: 8px;
+    background: url('https://crushingit.tech/hackathon-assets/icon-search.svg');
 }
 
 .notification {
