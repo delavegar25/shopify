@@ -44,13 +44,19 @@ input[type=text]{
     color: white;
     display: flex;
     background-color: #322F33;
-    border-radius: 5px;
+    border-radius: 7px;
     width: 100px;
     margin-left: 1200px;
     margin-top: -40px;
 }
 
-
+#initial {
+    margin-left: 1300px;
+    background-color: #00ff00;
+    width: 30px;
+    top: -90px;
+    margin-top: -50px;
+}
 
 #container .notification {
     margin-left: 146px;
