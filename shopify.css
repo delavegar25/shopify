@@ -35,8 +35,25 @@ input[type=text]{
     cursor: pointer;
 }
 
-.notification {
-    margin-left: 300px;
+#user {
+  border-radius: 5px;
+
+}
+
+#user .pascal{
+    color: white;
+    display: flex;
+    background-color: #322F33;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: 1200px;
+    margin-top: -40px;
+}
+
+
+
+#container .notification {
+    margin-left: 20px;
 }
 
 #select{
