@@ -115,7 +115,9 @@ h2{
 
 #section .customize {
     margin-left: 20px;
+    margin-top: -1000px;
 }
+
 
 #template #btn2 {
   background-color: #1C181D;
@@ -137,6 +139,11 @@ h2{
     padding: 15px;
 }
 
+#domain {
+    background-color: #cccccc;
+}
+
 #domain .custom {
    margin-left: 20px;
 }
+
