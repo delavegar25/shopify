@@ -37,6 +37,7 @@ input[type=text]{
 
 #user {
   border-radius: 5px;
+  cursor: pointer;
 }
 
 #user .pascal{
@@ -53,6 +54,7 @@ input[type=text]{
 
 #container .notification {
     margin-left: 146px;
+    border-radius: 7px;
 }
 
 #select{
