@@ -7,6 +7,9 @@
  
 body {
     background-color: aliceblue;
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
 
 #container {
@@ -70,6 +73,10 @@ input[type=text]{
  padding: 5px;
  margin-top: -80px;
  border-radius: 5px;
+}
+
+#section img {
+
 }
 
 h2{
