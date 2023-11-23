@@ -88,7 +88,7 @@ input[type=text]{
     height: 40px;
     text-align: left;
     padding: 10px;
-    margin-left: 80px;
+    margin-left: 180px;
     border-radius: 5px;
 }
 
@@ -106,7 +106,7 @@ input[type=text]{
 #section {
  width: 800px;
  background-color: #F1F1F1;   
- margin-left: 180px;
+ margin-left: 280px;
  height: 60vh;
  padding: 5px;
  margin-top: -80px;
