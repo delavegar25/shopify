@@ -53,10 +53,12 @@ input[type=text]{
 #initial {
     margin-left: 1300px;
     background-color: #00ff00;
-    width: 30px;
-    top: -90px;
-    margin-top: -50px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
 }
+
+
 
 #container .notification {
     margin-left: 146px;
@@ -145,6 +147,12 @@ h2{
     padding: 15px;
 }
 
+#template .pro {
+    position: absolute;
+    margin-left: 450px;
+    width: 90px;
+}
+
 #domain {
     background-color: #cccccc;
 }
@@ -152,4 +160,5 @@ h2{
 #domain .custom {
    margin-left: 20px;
 }
+
 
