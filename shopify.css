@@ -77,7 +77,10 @@ input[type=text]{
     text-align: center;
 }
 
-
+#select .icon-cross {
+    margin-left: 750px;
+    margin-top: -75px;
+}
 
 .plan {
     background-color: #000000;
