@@ -67,8 +67,6 @@ input[type=text]{
     top: 20px;
 }
 
-
-
 #container .notification {
     margin-left: 146px;
     border-radius: 7px;
@@ -111,6 +109,31 @@ input[type=text]{
  padding: 5px;
  margin-top: -80px;
  border-radius: 5px;
+}
+
+#section .arrow {
+    margin-left: 750px;
+    top: 90px;
+}
+
+#section .visual-progress {
+   background-color: #dbdbdb;
+   width: 100px;
+   height: 4px;
+   z-index: -1;
+   border-radius: 8px; 
+   margin-left: 150px;
+   margin-top: -20px;
+}
+
+.visual-progress::before {
+    position: absolute;
+    content: '''';
+    z-index: 1;
+    height: 4px;
+    width: 20%;
+    border-radius: 8px;
+    background-color: #1C181D;
 }
 
 
