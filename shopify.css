@@ -22,7 +22,10 @@ body {
 #container .icon {
     position: absolute;
     left: 500px;
-    top: 10px;
+    top: 19px;
+    margin-left: -25px;
+    background-color: #ffffff;
+    color: #322F33;
 }
 
 input[type=text]{
@@ -36,8 +39,9 @@ input[type=text]{
 
 
 ::placeholder {
-    background-color: #322F33;
+    background-color: #ffffff;
     cursor: pointer;
+    padding: 33px;
 }
 
 #user {
