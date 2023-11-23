@@ -121,11 +121,12 @@ h2{
 }
 
 
-#section .customize {
-    margin-left: 20px;
-    margin-top: -1000px;
-}
 
+#section .custom {
+  position: absolute;
+  margin-left: 650px;
+  width: 85px;
+}
 
 #template #btn2 {
   background-color: #1C181D;
@@ -144,13 +145,13 @@ h2{
 }
 
 #template .first-product{
-    padding: 15px;
+    padding: 15px; 
 }
 
 #template .pro {
     position: absolute;
-    margin-left: 450px;
-    width: 90px;
+    margin-left: 550px;
+    width: 85px;
 }
 
 #domain {
