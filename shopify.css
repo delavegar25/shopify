@@ -405,9 +405,17 @@ template {
 }
 
 .search_input {
-    
+    border-radius: 8px;
+    border: 1px solid var(--stroke-s-200, #616161);
+    background: var(--grey-g-200, #303030);
+    display: flex;
+    width: 480px;
+    height: 32px;
+    padding: 8px;
+    align-items: center;
+    gap: 6px;   
 }
 
 .search svg {
-    
+
 }
