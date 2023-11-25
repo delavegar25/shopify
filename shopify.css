@@ -432,3 +432,63 @@ gap: 32px;
     background: var(--White, #FFF);
     box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.05);
 }
+
+.section-guide {
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.section-guide h1 {
+    color: var(--font-dark, #303030);
+
+/* Text-14/semi bold */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 19.6px */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 4px;
+}
+
+.section-guide p{
+    display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 4px;
+   color: var(--font-dark, #303030);
+
+/* Text-13/regular */
+font-family: Inter;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 18.2px */
+}
+
+.setup-guide svg {
+    width: 20px;
+    height: 20px;
+}
+
+.setup_guide_desc {
+    color: var(--font-dark, #303030);
+
+/* Text-12/regular */
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 15.6px */
+}
+
+.progress {
+    width: 72px;
+height: 4px;
+color: #1A1A1A;
+}
