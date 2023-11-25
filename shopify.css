@@ -439,6 +439,8 @@ gap: 32px;
     justify-content: space-between;
     align-items: flex-start;
     align-self: stretch;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .section-guide h1 {
@@ -450,19 +452,10 @@ font-size: 14px;
 font-style: normal;
 font-weight: 600;
 line-height: 140%; /* 19.6px */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-gap: 4px;
 }
 
 .section-guide p{
-    display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   gap: 4px;
-   color: var(--font-dark, #303030);
-
+color: var(--font-dark, #303030);
 /* Text-13/regular */
 font-family: Inter;
 font-size: 13px;
