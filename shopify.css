@@ -371,6 +371,7 @@ template {
     background: transparent;
     border: none;
     cursor: pointer;
+    transition: all 200ms ease-in;
 }
 
 .notification-bell:hover {
@@ -383,8 +384,10 @@ template {
 }
 
 .notification-bell:focus{
-  box-shadow: 0px 0px 0px 3px #005BD3, 0px 0px 0px 1px #000;
+  outline: 2px solid #005bd3;
+  outline-offset: 1px;
 }
+
 
 .notification-bell {
    border-radius: 8px;
