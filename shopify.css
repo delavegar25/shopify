@@ -464,9 +464,8 @@ font-weight: 400;
 line-height: 140%; /* 18.2px */
 }
 
-.setup-guide svg {
-    width: 20px;
-    height: 20px;
+.svgsvg {
+  
 }
 
 .setup_guide_desc {
