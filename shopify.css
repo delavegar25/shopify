@@ -407,11 +407,12 @@ template {
 .wrapper {
     background: var(--Background, #F1F1F1);
     display: flex;
-width: 1440px;
-padding-bottom: 0px;
-flex-direction: column;
-align-items: center;
-gap: 32px;
+    width: 1440px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-top: 40px;
 }
 
 .section-plan {
@@ -425,6 +426,17 @@ gap: 32px;
     height: 56px;
 }
 
+.plan {
+    color: var(--font-dark, #323232);
+
+/* Text-12/Semi bold */
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 15.6px */
+margin-left: 220px;
+}
 
 .setup-guide {
     border-radius: 18px;
@@ -465,7 +477,13 @@ line-height: 140%; /* 18.2px */
 }
 
 .svgsvg {
-  
+    width: 20px;
+    height: 20px;
+    display: flex;
+    padding: 4px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 6px;
 }
 
 .setup_guide_desc {
@@ -483,4 +501,20 @@ line-height: 130%; /* 15.6px */
     width: 72px;
     height: 4px;
     color: #1A1A1A;
+}
+
+.check-wrapper {
+    display: flex;
+padding: 8px;
+align-items: center;
+gap: 120px;
+align-self: stretch;
+border-radius: 10px;
+}
+
+
+.checkmark svg{
+    width: 24px;
+height: 24px;
+color: #8a8a8a;
 }
