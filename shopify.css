@@ -412,10 +412,28 @@ button{
   justify-content: center;
 }
 
+.notification-alerts {
+  display: none;
+}
+
+.notification-text {
+  display: none;
+}
+
+.account-dropdown-middle {
+  display: none;
+}
+
+.account-dropdown-bottom{
+  display: none;
+}
+
 .profile {
   display: flex;
   align-items: center;
 }
+
+
 
 .notification-bell:hover {
   background: var(--font-mid-2, #616161);
@@ -490,4 +508,21 @@ line-height: 140%; /* 18.2px */
   margin-left: 300px;
 }
 
+.setupguide-arrow {
+  margin-left: 750px;
+  margin-top: -60px;
+}
 
+
+.progress {
+  margin-left: 320px;
+}
+
+
+.accordion-store {
+  margin-left: 310px;
+}
+
+.item-checkbox{
+  display: none;
+}
