@@ -526,3 +526,45 @@ line-height: 140%; /* 18.2px */
 .item-checkbox{
   display: none;
 }
+
+
+.bottom-setup {
+  margin-left: 300px;
+  padding: 40px;
+}
+
+.product {
+  margin-left: 300px;
+  padding: 40px;
+}
+
+.details {
+  margin-left: 330px;
+}
+
+.domain {
+  margin-left: 300px;
+  padding: 40px;
+}
+
+.shopify-domain {
+  margin-left: 330px;
+}
+
+.merchant-store {
+  margin-left: 300px;
+  padding: 40px;
+}
+
+.merchant-collections {
+  margin-left: 330px;
+}
+
+.merchant-payment {
+  margin-left: 300px;
+  padding: 30px;
+}
+
+.payment-provider {
+  margin-left: 330px;
+}
