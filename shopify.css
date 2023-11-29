@@ -472,7 +472,7 @@ button{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 10px
+  padding-left: -20px
 }
 
 .user {
@@ -483,6 +483,7 @@ button{
 .user-name {
    border-radius: 6px;
    border: 2px solid black;
+   border: none;
    background: var(--grey-grey-200, #303030);
 }
 
@@ -513,8 +514,8 @@ line-height: 140%; /* 18.2px */
   border: 1px solid rgba(0, 0, 0, 0.10); 
   background: var(--White, #FFF);
   box-shadow: 0px -1px 0px 0px #B5B5B5 inset;
-  margin-left: 600px;
-  margin-top: -30px;
+  margin-left: 640px;
+  margin-top: -50px;
 }
 
 .price-link {
@@ -525,14 +526,16 @@ line-height: 140%; /* 18.2px */
 }
 
 .close-btn {
-  margin-left: 740px;
+  margin-left: 770px;
   margin-top: -30px;
+
 }
 
 .setup-guide {
-  position: relative;
   background-color: var(--white);
   padding:20px;
+  border-radius: 8px;
+  width: 780px;
   margin-left: 300px;
 }
 
@@ -541,10 +544,10 @@ line-height: 140%; /* 18.2px */
   margin-top: -60px;
 }
 
-
 .progress {
   margin-left: 320px;
 }
+
 
 
 .check-box {
@@ -625,6 +628,10 @@ line-height: 140%; /* 18.2px */
   animation-name: zoom-in-spin;
   animation-duration: 300ms;
   animation-timing-function: linear;
+}
+
+.item-checkbox  {
+  margin-bottom: -60px; 
 }
 
 .bottom-setup {
