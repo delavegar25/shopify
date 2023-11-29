@@ -472,6 +472,25 @@ button{
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 10px
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+   border-radius: 6px;
+   border: 2px solid black;
+   background: var(--grey-grey-200, #303030);
+}
+
+.user-initial {
+  border-radius: 6px;
+  padding-left: 3px;
+  border: 2px solid green;
+  background-color: green;
 }
 
 .select-plan-header {
