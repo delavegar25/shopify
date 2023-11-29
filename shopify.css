@@ -361,6 +361,7 @@ template {
   justify-content: space-between;
   background: var(--color-scales-gray-16, #1A1A1A);
   margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 a{
@@ -462,7 +463,15 @@ button{
   align-items: center;
   border-radius: 8px;
   margin-left: 300px;
+  margin-bottom: 20px;
+  border: 2px solid #FFF;
   background: var(--grey-grey-300, #1A1A1A);
+}
+
+.users-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .select-plan-header {
@@ -519,14 +528,85 @@ line-height: 140%; /* 18.2px */
 }
 
 
-.accordion-store {
+.check-box {
+  display: flex;
+  align-items: center;
+  gap: 32px;
   margin-left: 310px;
 }
 
 .item-checkbox{
+  background-color: transparent;
+  border: none;
+  border-radius: 12px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid #b5b5b5;
+  transition: all 100ms ease-in;
+}
+
+.item-checkbox:focus {
+    outline: 4px solid #005bd3;
+    outline-offset: 4px;
+}
+
+.hidden {
   display: none;
 }
 
+/* animation */
+/* using zoom in spin for our animation */ 
+
+@keyframes zoom-in-spin {
+  from {
+    transform: scale(0) rotate(270deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1) rotate(360deg);
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.check-box:focus .not-completed circle {
+  fill: #d9d9d9;
+  stroke-dasharray: 0 0;
+}
+
+.check-box:hover .check-box circle {
+  stroke-dasharray: 0 0;
+}
+
+.loading-spinner-icon {
+  width: 100px;
+  height: 100px;
+
+  animation-duration: 1000ms;
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.completed-icon {
+  animation-name: zoom-in-spin;
+  animation-duration: 300ms;
+  animation-timing-function: linear;
+}
 
 .bottom-setup {
   margin-left: 300px;
