@@ -726,8 +726,8 @@ line-height: 140%; /* 18.2px */
 
 
 .product {
-  margin-left: 270px;
-  padding: 40px;
+  margin-left: 315px;
+  padding: 2px;
 }
 
 .product h3 {
@@ -746,6 +746,49 @@ line-height: 140%; /* 18.2px */
   line-height: 140%;
 }
 
+.first-product {
+  all: unset;
+
+  padding: 6px 12px;
+  border-radius: 6px;
+  border-top: 1.5px solid rgba(199, 160, 160, 0.2);
+  border-right: 1.5px solid rgba(255, 255, 255, 0.2);
+  border-left: 1.5px solid rgba(255, 255, 255, 0.2);
+  background: #404040;
+  box-shadow: 0px 0px 0px 1.5px #333, 0px 1px 0px 1.5px #333,
+    0px 2px 0px 0px #000;
+
+  color: #f6f3f6;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 130%;
+  cursor: pointer;
+}
+
+.first-product:hover {
+  background: #2a2a2a;
+}
+
+.first-product:active {
+  background: #2b2b2b;
+  box-shadow: 0px 0px 0px 1.5px #333, 0px 3px 0px 0px #000 inset;
+}
+
+.first-product:focus{
+  background: #404040;
+  box-shadow: 0px 0px 0px 2px #005bd3, 0px 0px 0px 3px #fff,
+    0px 0px 0px 1.5px #333;
+}
+
+.first-product:focus-visible {
+    background: #404040;
+    box-shadow: 0px 0px 0px 2px #005bd3, 0px 0px 0px 3px #fff,
+      0px 0px 0px 1.5px #333;
+}
+
+.details img {
+  margin-left: 670px;
+}
 
 .details {
   margin-left: 330px;
