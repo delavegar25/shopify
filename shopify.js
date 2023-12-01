@@ -5,13 +5,40 @@ const MARKED_AS_DONE = 'checkbox-done';
 // the cancel button
 // users that is not interested
 
-const cancelBtn = document.getElementById("cancel-btn");
-const planNotification = document.getElementById("shopify-pricing");
+let cancelFlag = false;
 
-cancelBtn.addEventListener('click', () => {
-  planNotification.style.display = 'none';
-})
+function cancel() {
+    cancelFlag = true;
+    console.log('cancellation requested');
+}
 
+function cancelBtn() {
+    if(!cancelFlag) {
+        console.log('cancelBtn is executed');
+    }
+    else {
+        console.log('cancelBtn canceled')
+    }
+}
+
+function openBtn() {
+    if(!cancelFlag){
+        console.log('openBtn is executed');
+    }
+    else {
+        console.log('openBtn canceled');
+    }
+}
+
+
+document.getElementById('cancel-btn').addEventListener('click', cancel);
+
+cancelBtn();
+openBtn();
+
+document.getElementById('cancel-btn').click();
+cancelBtn();
+openBtn();
 // onclick, hide the empty checkbox 
 // show the spinner
 // 3 seconds later, show the check icon
