@@ -575,16 +575,41 @@ line-height: 140%; /* 18.2px */
   line-height: 140%;
 }
 
+.setup-guide svg {
+  cursor: pointer;
+  transition: 1s;
+  border-radius: 6px;
+  padding: 2px;
+  box-sizing: content-box;
+}
 
+.setup-guide svg:hover {
+  background-color: f3f3f3;
+}
 
-.setupguide-arrow {
-  margin-left: 750px;
-  margin-top: -60px;
+.setup-guide p {
+  color: var(--grey-200);
+  font-size: 13px;
+  line-height: 140%;
+  margin-bottom: 16px;
+}
+
+/* animation */
+
+.arrow{
+  transform: rotate(180deg);
 }
 
 .progress {
-  margin-left: 320px;
+  color: var(--grey-200);
+  font-size: 12px;
+  line-height: 130%;
 }
+
+.strength {
+
+}
+
 
 
 

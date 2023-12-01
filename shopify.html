@@ -172,23 +172,36 @@
       <div role="section-guide" aria-roledescription="guide on how to set up your store" class="setup-guidesection">
         <div class="setup-guide">
           <h3>Setup guide</h3>
-          <button class="setupguide-arrow" id="arrow-down">
-            <img src="https://crushingit.tech/hackathon-assets/icon-arrow-down.svg" alt=" arrow-down" class="absolute-btn"
-              id="arrow-img">
-          </button>
+          
+          <svg
+            class="arrow"
+            width="20"
+            height="20"
+            viewBox="0 0 21 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M15.0303 12.2803C14.7374 12.5732 14.2626 12.5732 13.9697 12.2803L10.5 8.81066L7.03033 12.2803C6.73744 12.5732 6.26256 12.5732 5.96967 12.2803C5.67678 11.9874 5.67678 11.5126 5.96967 11.2197L9.96967 7.21967C10.2626 6.92678 10.7374 6.92678 11.0303 7.21967L15.0303 11.2197C15.3232 11.5126 15.3232 11.9874 15.0303 12.2803Z"
+              fill="#4A4A4A"
+            />
+          </svg>
     
           <p class="setup-description">
             Use this personalized guide to get your store up and running.
           </p>
+           <!--progress-bar-->
+
+      <div class="progress">
+        <label for="progress"  id="progressCounter">0 / 5 completed</label>
+        <progress id="progress"  value="0" max="100">0%</progress>
+      </div>
         </div>        
       </div>
 
-      <!--progress-bar-->
-
-      <div class="progress">
-        <label for="progress" id="progressCounter">0 / 5 completed</label>
-        <progress id="progress" value="0" max="100">0%</progress>
-      </div>
+      <!--checkbox animation-->
 
     <div class="check-box">
        <span id="item-status" aria-live="polite"></span>
