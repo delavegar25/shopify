@@ -606,11 +606,6 @@ line-height: 140%; /* 18.2px */
   line-height: 130%;
 }
 
-.strength {
-
-}
-
-
 
 
 .check-box {
@@ -698,8 +693,24 @@ line-height: 140%; /* 18.2px */
 }
 
 .bottom-setup {
-  margin-left: 300px;
+  margin-left: 270px;
   padding: 40px;
+}
+
+.bottom-setup h3 {
+  all: unset;
+  color: var(--grey-200);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.bottom-setup p {
+  margin: 16px 0px;
+  color: #616161;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 140%;
 }
 
 .product {
