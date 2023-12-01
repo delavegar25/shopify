@@ -713,10 +713,39 @@ line-height: 140%; /* 18.2px */
   line-height: 140%;
 }
 
+.bottom-setup a {
+  color: #005bd3;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+
+.bottom-setup  img {
+  margin-left: 670px;
+}
+
+
 .product {
-  margin-left: 300px;
+  margin-left: 270px;
   padding: 40px;
 }
+
+.product h3 {
+  all: unset;
+  color: var(--grey-200);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 140%;  
+}
+
+.details p {
+  margin: 16px 0px;
+  color: #616161;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
 
 .details {
   margin-left: 330px;
