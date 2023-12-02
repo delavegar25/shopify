@@ -719,6 +719,45 @@ line-height: 140%; /* 18.2px */
   text-decoration: none;
 }
 
+.customm button {
+  all: unset;
+
+  padding: 6px 12px;
+  border-radius: 6px;
+  border-top: 1.5px solid rgba(199, 160, 160, 0.2);
+  border-right: 1.5px solid rgba(255, 255, 255, 0.2);
+  border-left: 1.5px solid rgba(255, 255, 255, 0.2);
+  background: #404040;
+  box-shadow: 0px 0px 0px 1.5px #333, 0px 1px 0px 1.5px #333,
+    0px 2px 0px 0px #000;
+
+  color: #f6f3f6;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 130%;
+  cursor: pointer;
+}
+
+.custom button:hover {
+  background: #2a2a2a;
+}
+
+.custom:active {
+  background: #2b2b2b;
+  box-shadow: 0px 0px 0px 1.5px #333, 0px 3px 0px 0px #000 inset;
+}
+
+.custom:focus{
+  background: #404040;
+  box-shadow: 0px 0px 0px 2px #005bd3, 0px 0px 0px 3px #fff,
+    0px 0px 0px 1.5px #333;
+}
+
+.custom:focus-visible{
+  background: #404040;
+    box-shadow: 0px 0px 0px 2px #005bd3, 0px 0px 0px 3px #fff,
+      0px 0px 0px 1.5px #333;
+}
 
 .bottom-setup  img {
   margin-left: 670px;
@@ -745,6 +784,7 @@ line-height: 140%; /* 18.2px */
   font-weight: 500;
   line-height: 140%;
 }
+
 
 .first-product {
   all: unset;
@@ -794,19 +834,85 @@ line-height: 140%; /* 18.2px */
   margin-left: 330px;
 }
 
+
 .domain {
-  margin-left: 300px;
-  padding: 40px;
+  margin-left: 312px;
+  padding: 2px;
 }
 
-.shopify-domain {
-  margin-left: 330px;
+.domain h3 {
+  all: unset;
+  color: var(--grey-200);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 140%;
 }
+
+
+.shopify-domain {
+  margin-left: 312px;
+}
+
+.shopify-domain p {
+  margin: 16px 0px;
+  color: #616161;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+
+.shopify-domain img {
+  margin-left: 570px;
+}
+
+
+.domain-button{
+  all: unset;
+
+  padding: 6px 12px;
+  border-radius: 6px;
+  border-top: 1.5px solid rgba(199, 160, 160, 0.2);
+  border-right: 1.5px solid rgba(255, 255, 255, 0.2);
+  border-left: 1.5px solid rgba(255, 255, 255, 0.2);
+  background: #404040;
+  box-shadow: 0px 0px 0px 1.5px #333, 0px 1px 0px 1.5px #333,
+    0px 2px 0px 0px #000;
+
+  color: #f6f3f6;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 130%;
+  cursor: pointer;
+}
+
+.domain-button:hover {
+  background: #2a2a2a;
+}
+
+.domain-button:active {
+  background: #2b2b2b;
+  box-shadow: 0px 0px 0px 1.5px #333, 0px 3px 0px 0px #000 inset;
+}
+
+.domain-button:focus{
+  background: #404040;
+  box-shadow: 0px 0px 0px 2px #005bd3, 0px 0px 0px 3px #fff,
+    0px 0px 0px 1.5px #333;
+}
+
+.domain-button:focus-visible {
+    background: #404040;
+    box-shadow: 0px 0px 0px 2px #005bd3, 0px 0px 0px 3px #fff,
+      0px 0px 0px 1.5px #333;
+}
+
 
 .merchant-store {
   margin-left: 300px;
-  padding: 40px;
+  padding: 2px;
 }
+
 
 .merchant-collections {
   margin-left: 330px;
