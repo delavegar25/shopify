@@ -554,6 +554,15 @@ line-height: 140%; /* 18.2px */
   line-height: 130%; /* 15.6px */
 }
 
+.wrapper > div a:hover{
+  background: #f7f7f7;
+}
+
+.wrapper > div a:focus-visible {
+  box-shadow: 0px 0px 0px 3px #005bd3, 0px 0px 0px 1px #fff,
+  0px -1px 0px 0px #b5b5b5 inset;
+}
+
 .label {
   margin-top: -30px;
 }
@@ -566,10 +575,9 @@ line-height: 140%; /* 18.2px */
  box-shadow: 0px -1px 0px 0px #B5B5B5 inset;
 }
 
-.close-btn {
+.cancel {
   margin-left: 770px;
   margin-top: -30px;
-  cursor: pointer;
 }
 
 .setup-guide {

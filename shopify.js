@@ -1,44 +1,16 @@
-function app() {
 
 const aHidden = 'hidden';
 const MARKED_AS_DONE = 'checkbox-done';
 // the cancel button
 // users that is not interested
 
-let cancelFlag = false;
 
-function cancel() {
-    cancelFlag = true;
-    console.log('cancellation requested');
-}
+const wrapper = document.querySelector(".wrapper");
+const cancelIcon = document.querySelector(".cancel");
+cancelIcon.addEventListener("click", () => {
+  wrapper.classList.add("hidden");
+});
 
-function cancelBtn() {
-    if(!cancelFlag) {
-        console.log('cancelBtn is executed');
-    }
-    else {
-        console.log('cancelBtn canceled')
-    }
-}
-
-function openBtn() {
-    if(!cancelFlag){
-        console.log('openBtn is executed');
-    }
-    else {
-        console.log('openBtn canceled');
-    }
-}
-
-
-document.getElementById('cancel-btn').addEventListener('click', cancel);
-
-cancelBtn();
-openBtn();
-
-document.getElementById('cancel-btn').click();
-cancelBtn();
-openBtn();
 // onclick, hide the empty checkbox 
 // show the spinner
 // 3 seconds later, show the check icon
@@ -59,7 +31,7 @@ console.log(checkboxButton,
     notCompletedIcon, 
     loadingSpinnerIcon, 
     completedIcon);
-}
+
 
 
 
@@ -124,4 +96,3 @@ checkboxButton.addEventListener('click', itemCheckDoneOrNotDone);
 
 
 
-app();
