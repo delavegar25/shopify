@@ -711,6 +711,7 @@ line-height: 140%; /* 18.2px */
   font-size: 13px;
   font-weight: 500;
   line-height: 140%;
+  margin-right: 570px;
 }
 
 .bottom-setup a {
@@ -783,6 +784,7 @@ line-height: 140%; /* 18.2px */
   font-size: 13px;
   font-weight: 500;
   line-height: 140%;
+  margin-right: 570px;
 }
 
 
@@ -859,6 +861,7 @@ line-height: 140%; /* 18.2px */
   font-size: 13px;
   font-weight: 500;
   line-height: 140%;
+  margin-right: 570px;
 }
 
 
@@ -909,10 +912,37 @@ line-height: 140%; /* 18.2px */
 
 
 .merchant-store {
-  margin-left: 300px;
+  margin-left: 315px;
   padding: 2px;
 }
+.merchant-store h3{
+   all: unset;
+   color: var(--grey-200);
+   font-size: 13px;
+   font-weight: 600;
+   line-height: 140%;
+}
 
+.merchant-collections p {
+  margin: 16px 0px;
+  color: #616161;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 140%;
+  margin-right: 580px;
+}
+
+.merchant-collections img {
+  margin-left: 670px;
+}
+
+.merchant-payment h3{
+  all: unset;
+  color: var(--grey-200);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 140%;
+}
 
 .merchant-collections {
   margin-left: 330px;
