@@ -539,6 +539,140 @@ font-style: normal;
 line-height: 140%; /* 18.2px */
 }
 
+.notification-header {
+  width: full;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.alerts-message {
+  color: var(--grey-200);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.dropdown {
+  width: 320px;
+  height: 384px;
+  border-radius: 14px;
+  padding: 6px 0px;
+  border: 1px solid #dbdbdb;
+  background: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 64px;
+  right: 16px;
+  z-index: 50;
+}
+.dropdown .section-dropdown {
+  padding: 0px 6px;
+}
+.dropdown .section-dropdown > div:first-child {
+  border-radius: 8px;
+  background: #f1f1f1;
+  display: flex;
+  padding: 4px 12px 4px 8px;
+  align-items: center;
+}
+.dropdown .section-dropdown > div:first-child p:first-child {
+  height: 28px;
+  border-radius: 6px;
+  background: #36fba1;
+  padding: 9.625px 5.875px 10.375px 6.125px;
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+.dropdown .section-dropdown > div:first-child .name {
+  margin-left: 8px;
+  color: var(--grey-200);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 140%;
+}
+.dropdown .section-dropdown > div:first-child svg {
+  margin-left: auto;
+}
+.dropdown .section-dropdown > div:last-child {
+  display: flex;
+  align-items: center;
+  margin: 4px 0px;
+  padding: 2px 0px;
+}
+.dropdown .section-dropdown > div:last-child:focus {
+  outline: none;
+  border-radius: 8px;
+  border: 2px solid #005bd3;
+}
+.dropdown .section-dropdown > div:last-child:focus-visible {
+  outline: none;
+  border-radius: 8px;
+  border: 2px solid #005bd3;
+}
+.dropdown .section-dropdown > div:last-child p {
+  color: var(--grey-200);
+  font-size: 13px;
+  line-height: 140%;
+  margin-left: 8px;
+}
+
+.dropdown ul a {
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  outline: none;
+}
+.dropdown .section a:hover {
+  background-color: #f1f1f1;
+}
+.dropdown .section a:focus {
+  background-color: transparent;
+  border-radius: 8px;
+  border: 2px solid #005bd3;
+}
+.dropdown .section a:focus-visible {
+  background-color: transparent;
+  border-radius: 8px;
+  border: 2px solid #005bd3;
+}
+.dropdown .section2 {
+  padding: 4px;
+  border-top: 0.75px solid #e1e1e1;
+  border-bottom: 0.75px solid #e1e1e1;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.dropdown .section2 a {
+  border-radius: 8px;
+  padding: 6px;
+  color: var(--grey-200);
+  font-size: 13px;
+  line-height: 140%;
+}
+.dropdown .section3 {
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.dropdown .section3 a {
+  border-radius: 8px;
+  padding: 6px;
+  color: var(--grey-200);
+  font-size: 13px;
+  line-height: 140%;
+}
+.dropdown .section3 a p {
+  color: #616161;
+  font-size: 12px;
+  line-height: 130%;
+}
+
 .wrapper > div a {
   all: unset;
   padding: 6px 12px;

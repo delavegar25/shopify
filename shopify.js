@@ -94,4 +94,3 @@ checkboxButton.addEventListener('click', itemCheckDoneOrNotDone);
 // 3 seconds later show the check icon
 
 
-
