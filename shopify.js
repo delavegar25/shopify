@@ -4,7 +4,6 @@ const MARKED_AS_DONE = 'checkbox-done';
 // the cancel button
 // users that is not interested
 
-
 const wrapper = document.querySelector(".wrapper");
 const cancelIcon = document.querySelector(".cancel");
 cancelIcon.addEventListener("click", () => {
