@@ -932,9 +932,36 @@ line-height: 140%; /* 18.2px */
   margin-right: 580px;
 }
 
-.merchant-collections img {
-  margin-left: 670px;
+.merch:hover {
+  background: #2a2a2a;
 }
+
+.merch:active {
+  background: #2b2b2b;
+  box-shadow: 0px 0px 0px 1.5px #333, 0px 3px 0px 0px #000 inset;
+}
+
+.merch:focus{
+  background: #404040;
+  box-shadow: 0px 0px 0px 2px #005bd3, 0px 0px 0px 3px #fff,
+    0px 0px 0px 1.5px #333;
+}
+
+.merch:focus-visible {
+    background: #404040;
+    box-shadow: 0px 0px 0px 2px #005bd3, 0px 0px 0px 3px #fff,
+      0px 0px 0px 1.5px #333;
+}
+
+.merchant-collections img {
+  margin-left: 540px;
+}
+
+
+.merchant-collections {
+  margin-left: 330px;
+}
+
 
 .merchant-payment h3{
   all: unset;
@@ -944,15 +971,55 @@ line-height: 140%; /* 18.2px */
   line-height: 140%;
 }
 
-.merchant-collections {
-  margin-left: 330px;
-}
 
 .merchant-payment {
   margin-left: 300px;
-  padding: 30px;
+  padding: 3px;
+}
+
+.merchant-payment h3{
+  all: unset;
+  color: var(--grey-200);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 140%;  
+  margin-left: 28px;
+}
+
+.payment-provider p{
+  margin: 16px 0px;
+  color: #616161;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 140%;
+  margin-right: 580px;
 }
 
 .payment-provider {
   margin-left: 330px;
+}
+
+.payment-provider button:hover{
+  background: #2a2a2a;
+}
+
+.payment-provider button:active {
+  background: #2b2b2b;
+  box-shadow: 0px 0px 0px 1.5px #333, 0px 3px 0px 0px #000 inset;
+}
+
+.payment-button:focus{
+  background: #404040;
+  box-shadow: 0px 0px 0px 2px #005bd3, 0px 0px 0px 3px #fff,
+    0px 0px 0px 1.5px #333;
+}
+
+.payment-provider button:focus-visible {
+    background: #404040;
+    box-shadow: 0px 0px 0px 2px #005bd3, 0px 0px 0px 3px #fff,
+      0px 0px 0px 1.5px #333;
+}
+
+.payment-provider img {
+  margin-left:650px;
 }
