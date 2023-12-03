@@ -13,8 +13,8 @@ Only allowed to use HTML, CSS and JAVASCRIPT for this hackathon challenge, no fr
 Covered the user stories of the merchant.
 
 The user stories:
--As a merchant, when  i click on the shopify icon on the top bar, i am taken to the landing page.
--The search bar has no action.
+.As a merchant, when  i click on the shopify icon on the top bar, i am taken to the landing page.
+.The search bar has no action.
 -When the user clicks on the notification bell it sends an alert message.
 -When the user clicks on the name of the store Davii collections, a list of menu items popup and the user redirected to the admin link.
 -When the user clicks on select plan, redirected to shopify/pricing link. 
