@@ -56,6 +56,8 @@
         </div>
        </div>
 
+       
+
        <div class="notification-alerts">
         <div class="notification-header">
           <p class="alerts-message">Alerts</p>
@@ -100,9 +102,11 @@
       class="dropdown hidden"
       id="menu"
       role="menu"
+      aria-hasspopup="true"
       aria-labelledby="menu-trigger"
+      aria-expanded="false"
       >
-      <div class="section-dropdown">
+      <div class="section-dropdown" id="menuTrigger">
         <div>
           <p>DC</p>
           <p class="name">Davii Collections</p>
@@ -142,7 +146,7 @@
       </div>
 
     
-      <ul class="section section2">
+      <ul class="section section2" id="profile-menu">
         <a tabindex="0" href="https://admin.shopify.com/" target="_blank"
           >Help Center</a
         >

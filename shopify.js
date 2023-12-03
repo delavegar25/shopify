@@ -94,3 +94,7 @@ checkboxButton.addEventListener('click', itemCheckDoneOrNotDone);
 // 3 seconds later show the check icon
 
 
+/* when i click the menu trigger,
+*/
+
+// get the menu trigger 

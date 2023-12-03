@@ -766,9 +766,10 @@ line-height: 140%; /* 18.2px */
 
 
 .check-box {
-  display: flex;
-  align-items: center;
-  gap: 32px;
+   width: 24px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
   margin-left: 310px;
 }
 
