@@ -2,12 +2,14 @@ SHOPIFY DASHBOARD
 
 CRUSHING TECH HACKATHON CHALLENGE
 
-This challenge is to build the merchant onboarding experience, there are three web accessibility impairment i solved:
+Problem to solve in this challenge:
 1. Mouse users.
 2. Keyboard-only users.
 3. Screen reader users.
 
 This is to provide people with disabilities to access the web without any daunting issue.
+
+It is user-friendly.
 
 Only allowed to use HTML, CSS and JAVASCRIPT for this hackathon challenge, no frameworks or libraries allowed.
 Covered the user stories of the merchant.
