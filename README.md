@@ -15,16 +15,16 @@ Only allowed to use HTML, CSS and JAVASCRIPT for this hackathon challenge, no fr
 Covered the user stories of the merchant.
 
 The user stories:
--When you click on the shopify icon on the top bar and you will be redirected to the landing page.
+- When you click on the shopify icon on the top bar and you will be redirected to the landing page.
    
--The notification bell that sends an alert message.
+- The notification bell that sends an alert message.
    
--The name of the store (Davii collections) DC, a list of menu items popup when you click on it and you are redirected to the admin link.
+- The name of the store (Davii collections) DC, a list of menu items popup when you click on it and you are redirected to the admin link.
    
--The select plan section.
+- The select plan section.
     
--The arrow up and down icon at the select plan section.
+- The arrow up and down icon at the select plan section.
    
--The circle checkbox section.
+- The circle checkbox section, The animation section for smooth user experience
 
 
