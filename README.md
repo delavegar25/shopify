@@ -15,7 +15,7 @@ Only allowed to use HTML, CSS and JAVASCRIPT for this hackathon challenge, no fr
 Covered the user stories of the merchant.
 
 The user stories:
-- When you click on the shopify icon on the top bar and you will be redirected to the landing page.
+- When you click on the shopify icon on the top bar you will be redirected to the landing page.
    
 - The notification bell that sends an alert message.
    
