@@ -348,11 +348,6 @@ template {
   display: none;
 }
 
-* {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-}
 
 
 body {
@@ -1519,7 +1514,7 @@ display: none !important;
 /*responsiveness*/
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 790px) {
 .logo-desktop {
   display: none;
 }
