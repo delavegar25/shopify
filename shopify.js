@@ -36,12 +36,17 @@ dropdownTrigger.addEventListener("click", () => {
   plan.classList.add('hidden');
 });
 
-cancelIcon.addEventListener('keydown', (event) => {
-   if(event.key === 'Enter') {
-    plan.classList.add('hidden');
-   }
-})
 
+// to cancel the header using the escape key
+document.addEventListener('keydown', function(event){
+  const closeBtn = document.querySelector('.select-plan');
+
+  switch (event.key){
+    case 'Escape':
+      closeBtn.style.display = 'none';
+      break;
+  }
+})
 
 // close and open setup guide
 // open setup guide
