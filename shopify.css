@@ -1514,7 +1514,7 @@ display: none !important;
 /*responsiveness*/
 
 
-@media only screen and (max-width: 790px) {
+@media only screen and(max-width: 790px) {
 .logo-desktop {
   display: none;
 }
