@@ -15,16 +15,16 @@ Only allowed to use HTML, CSS and JAVASCRIPT for this hackathon challenge, no fr
 Covered the user stories of the merchant.
 
 The user stories:
-1. Click on the shopify icon on the top bar and you will be redirected to the landing page.
+-When you click on the shopify icon on the top bar and you will be redirected to the landing page.
    
-2. Click on the notification bell it sends an alert message.
+-The notification bell that sends an alert message.
    
-3. Click on the name of the store Davii collections, a list of menu items popup and you are redirected to the admin link.
+-The name of the store (Davii collections) DC, a list of menu items popup when you click on it and you are redirected to the admin link.
    
-4. Click on select plan.
+-The select plan section.
     
-5. Click on the arrow up icon.
+-The arrow up and down icon at the select plan section.
    
-6. Click on the circle checkbox it marks the steps completed.
+-The circle checkbox section.
 
 
