@@ -12,6 +12,10 @@
 
 </head>
 <body>
+
+  <!--header-->
+  <!--shopify home page-->
+
   <nav>
     <a href="https://www.shopify.com/" target="_blank"
       ><img
@@ -68,7 +72,7 @@
           />
         </svg>
 
-        <!-- Alert modal -->
+        <!-- Alert -->
         <div
           id="alert-modal"
           class="alert-modal hidden"
@@ -288,7 +292,7 @@
                <!-- The Five Setup Guides -->
         <div class="guides">
           <div onclick="toggleGuide(0)" class="guide guide1" tabindex="0">
-            <div class="checkbox">
+            <div class="checkbox" tabindex="0">
               <!-- Marked phase -->
               <svg
                 class="marked"
@@ -367,7 +371,7 @@
                 Choose a theme and add your logo, colors, and images to reflect
                 your brand. <a href="#">Learn more</a>
               </p>
-              <button>Customize theme</button>
+              <button aria-label="customize theme button" tabindex="0">Customize theme</button>
             </div>
             <img
               src="https://crushingit.tech/hackathon-assets/customise-store.png"
@@ -376,7 +380,7 @@
           </div>
 
           <div onclick="toggleGuide(1)" class="guide guide2" tabindex="0">
-            <div class="checkbox">
+            <div class="checkbox" tabindex="0">
               <!-- Marked phase -->
               <svg
                 class="marked"
@@ -456,7 +460,7 @@
                 products you plan to sell. <a href="#">Learn more</a>
               </p>
               <div>
-                <button>Add a product</button>
+                <button aria-label="Click on Add product" tabindex="0">Add a product</button>
                 <button
                   style="
                     background-color: transparent;
@@ -465,6 +469,8 @@
                     box-shadow: none;
                     margin-left: 16px;
                   "
+                  tabindex="0"
+                  aria-label="import product button"
                 >
                   Import product
                 </button>
@@ -477,7 +483,7 @@
           </div>
 
           <div onclick="toggleGuide(2)" class="guide guide3" tabindex="0">
-            <div class="checkbox">
+            <div class="checkbox" tabindex="0">
               <!-- Marked phase -->
               <svg
                 class="marked"
@@ -557,7 +563,7 @@
                 custom domain to help customers find your online store.
                 <a href="#">Learn more</a>
               </p>
-              <button>Add domain</button>
+              <button aria-label="domain button" tabindex="0">Add domain</button>
             </div>
             <img
               src="https://crushingit.tech/hackathon-assets/website.png"
@@ -566,7 +572,7 @@
           </div>
 
           <div onclick="toggleGuide(3)" class="guide guide4" tabindex="0">
-            <div class="checkbox">
+            <div class="checkbox" tabindex="0">
               <!-- Marked phase -->
               <svg
                 class="marked"
@@ -646,7 +652,7 @@
                 store name appears in your admin and your online store.
                 <a href="#">Learn more</a>
               </p>
-              <button>Name store</button>
+              <button aria-label="Name store button" tabindex="0">Name store</button>
             </div>
             <img
               src="https://crushingit.tech/hackathon-assets/name-store.png"
@@ -655,7 +661,7 @@
           </div>
 
           <div onclick="toggleGuide(4)" class="guide guide5" tabindex="0">
-            <div class="checkbox">
+            <div class="checkbox" tabindex="0">
               <!-- Marked phase -->
               <svg
                 class="marked"
@@ -736,7 +742,7 @@
                 up with your Shopify store.
                 <a href="#">Learn more</a>
               </p>
-              <button>Set up payment</button>
+              <button aria-label="set up payment button" tabindex="0">Set up payment</button>
             </div>
             <img
               src="https://crushingit.tech/hackathon-assets/payment.png"
