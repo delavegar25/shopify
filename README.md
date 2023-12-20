@@ -27,4 +27,13 @@ The user stories:
    
 - The circle checkbox section, The animation section for smooth user experience
 
+The javascript, we accessed and manipulated the DOM for
+the user to interact and be satisfied with the dashboard.
 
+For instance, in the user guide div elements. The setup 
+guide section, i added the toggle classlist for the arrow
+and shrink to toggle for better user experience.
+
+Used the keydown event for users with mobility impairments,
+when the user clicks on the keyboard of an event it
+displays the event to occur. 
