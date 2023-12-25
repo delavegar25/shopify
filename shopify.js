@@ -24,12 +24,12 @@ dropdownTrigger.addEventListener("click", () => {
 });
 
 //Logic to open and close modals with enter keys
-alertTrigger.addEventListener("keypress", (e) => {
+alertTrigger.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
     e.target.click();
   }
 });
-dropdownTrigger.addEventListener("keypress", (e) => {
+dropdownTrigger.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
     e.target.click();
   }
@@ -67,7 +67,7 @@ let checkedGuidescount = 0;
 
 //To open each guide with enter key
 guideList.forEach((guide) => {
-  guide.addEventListener("keypress", (e) => {
+  guide.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
       e.target.click();
     }
@@ -104,5 +104,3 @@ const updateProgress = () => {
   progressThumb.style.width = 20 * checkedGuidescount + "%";
   progressCount.textContent = checkedGuidescount;
 };
-
-
